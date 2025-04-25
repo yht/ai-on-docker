@@ -1,8 +1,7 @@
-# open-webui
+# open-webui-ollama
 
 Home Project: [https://openwebui.com/](https://openwebui.com/)
 Github: [https://github.com/open-webui/open-webui](https://github.com/open-webui/open-webui)
---------------------------------------------------
 
 Open-WebUI adalah proyek UI yang memudahkan pengguna untuk menerapkan 
 LLM berbasis lokal. Tampilan yang mirip dengan openAI dan penyedia LLM
@@ -22,7 +21,7 @@ cd ai-on-docker
 Bila sebelumnya sudah, silakan masuk ke folder proyek dan jalankan:
 
 ```{sh}
-open-webui
+cd open-webui-ollama
 docker compose pull
 ```
 
