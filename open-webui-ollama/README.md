@@ -1,7 +1,7 @@
 # open-webui-ollama
 
-Home Project: [https://openwebui.com/](https://openwebui.com/)
-Github: [https://github.com/open-webui/open-webui](https://github.com/open-webui/open-webui)
+* Home Project: [https://openwebui.com/](https://openwebui.com/)
+* Github: [https://github.com/open-webui/open-webui](https://github.com/open-webui/open-webui)
 
 Open-WebUI adalah proyek UI yang memudahkan pengguna untuk menerapkan 
 LLM berbasis lokal. Tampilan yang mirip dengan openAI dan penyedia LLM
@@ -34,7 +34,7 @@ docker compose up
 
 ### Laman Open-WebUI
 
-Laman _open-webui_ yang sudah terpasang dapat diakses melalui [http://localhost:10080](http://localhost:10080)
+Laman _open-webui_ yang sudah terpasang dapat diakses melalui [http://localhost:8080](http://localhost:8080)
 
 ## Referensi
 
