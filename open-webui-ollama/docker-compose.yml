@@ -1,4 +1,5 @@
 services:
+
   llm:
     volumes:
       - llm:/root/.ollama
@@ -13,7 +14,7 @@ services:
       args:
         OLLAMA_BASE_URL: '/ollama'
       dockerfile: Dockerfile
-    image: ghcr.io/open-webui/open-webui:dev
+    image: ghcr.io/open-webui/open-webui:main
     volumes:
       - ui:/app/backend/data
     depends_on:
@@ -29,6 +30,15 @@ services:
       - host.docker.internal:host-gateway
     restart: unless-stopped
 
+  pipelines:
+    image: ghcr.io/open-webui/pipelines:main
+    volumes:
+      - pipelines:/app/pipelines
+    restart: unless-stopped
+    environment:
+      - PIPELINES_API_KEY=0p3n-w3bu!
+
 volumes:
   llm: {}
   ui: {}
+  pipelines: {}
